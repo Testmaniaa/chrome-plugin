@@ -9,6 +9,17 @@
   },
   "keywords": [],
   "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "@mui/styles": "^5.0.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-hot-loader": "^4.13.0",
+    "react-virtualized": "^9.22.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
@@ -17,7 +28,7 @@
     "@types/chrome": "0.0.125",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
-    "@types/react-window": "^1.8.5",
+    "@types/react-virtualized": "^9.21.14",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.2.1",
     "css-loader": "^5.0.0",
@@ -30,16 +41,8 @@
     "webpack-cli": "^4.0.0",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {
-    "@emotion/react": "^11.5.0",
-    "@emotion/styled": "^11.3.0",
-    "@mui/icons-material": "^5.0.5",
-    "@mui/material": "^5.0.6",
-    "@mui/styles": "^5.0.2",
-    "@types/react-virtualized": "^9.21.14",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-hot-loader": "^4.13.0",
-    "react-virtualized": "^9.22.3"
+  "resolutions": {
+    "@types/react": "16.9.53",
+    "@types/react-dom": "16.9.8"
   }
 }

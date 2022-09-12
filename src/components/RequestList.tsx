@@ -155,7 +155,7 @@ type Props = {
 function RequestList({ requests }: Props): React.ReactElement {
   return (
     <div>
-      <Paper style={{ height: 400, width: '100%' }}>
+      <Paper style={{ height: 400, width: 600 }}>
         <VirtualizedTable
           rowCount={requests.length}
           rowGetter={({ index }) => requests[index]}
