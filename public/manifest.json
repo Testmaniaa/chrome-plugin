@@ -1,0 +1,36 @@
+{
+  "name": "Testmania Chrome Extension",
+  "description": "Chrome Extension to export selected requests into HAR files",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [ "cookies", "tabs", "webRequestBlocking", "webRequest", "http://*/*", "https://*/*" ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
