@@ -1,4 +1,5 @@
 # Testmania Chrome Plugin
+![Screen Shot 2022-09-12 at 9 02 23 AM](https://user-images.githubusercontent.com/19801457/189660708-5aba2fc5-ffa7-45e9-b29f-1e515abce2e3.png)
 This repo is made off the online boilerplate that has outdated dependencies. It is an over weekend project for the hackathon, so please don't judge over the quality!
 ## Getting started
 
